@@ -1,0 +1,21 @@
+html {
+    
+    font-size: 20px;
+    
+  }
+  
+
+img,iframe,table {
+    max-width: 100%;
+  }
+
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+  }
+  
+  .col {
+    border: 1px double var(--color-light);
+    padding: 1rem;
+  }
