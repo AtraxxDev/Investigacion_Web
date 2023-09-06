@@ -1,7 +1,7 @@
 :root {
   --color-primary: #000000;
   --font-body: 20px;
-  --font-family: 'Poppins', sans-serif;
+  --font-family: 'Kanit', sans-serif;
 }
 
 
@@ -17,6 +17,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
+ 
 }
 
 th {
@@ -25,6 +26,7 @@ th {
   padding: 10px;
   border: 1px solid #000000;
   text-align: left;
+  
 }
 
 td {
@@ -38,14 +40,23 @@ img, iframe, table {
   max-width: 100%;
 }
 
+img
+{
+  border-radius: 40px;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  background-color: #dbe4b5;
+  border-radius: 40px;
+  border: 1px solid #000000;
 }
 
 .col {
-  border: 1px double var (--color-dark);
+  font-size: 15px;
   padding: 1rem;
+  border: 1px solid #000000;
 }
 
 
