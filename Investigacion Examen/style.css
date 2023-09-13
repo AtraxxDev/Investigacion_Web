@@ -1,0 +1,175 @@
+:root {
+  --color-primary: #000000;
+  --font-body: 20px;
+  --font-family: 'Kanit', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  font-size: var(--font-body);
+  font-family: var(--font-family);
+  color: var(--color-primary);
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+ 
+}
+
+th {
+  background-color: #cdcebc;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: left;
+  
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+img, iframe, table {
+  max-width: 100%;
+}
+
+img
+{
+  border-radius: 40px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #dbe4b5;
+  border-radius: 40px;
+  border: 1px solid #000000;
+}
+
+.col {
+  font-size: 15px;
+  padding: 1rem;
+  border: 1px solid #000000;
+}
+
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(70, 4, 88);
+  color: white;
+  padding: 10px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 0;
+}
+
+
+
+nav ul {
+  list-style-type: none; 
+  padding: 0px;
+}
+
+nav li {
+  background: #822fb3;
+ 
+  display: inline;
+  margin-right: 20px; 
+}
+
+nav a {
+  
+  color: #ffffff; 
+  font-size: 18px;
+  font-weight: bold; 
+  transition: color 0.3s; 
+}
+
+nav a:hover {
+  color: #ffc107; 
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  font-size: 28px;
+  color: #3f51b5;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #001aff;
+}
+
+.custom-footer {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #000000; 
+}
+
+.custom-footer h3 {
+  font-size: 20px; 
+  color: #3f51b5; 
+  margin-bottom: 10px; 
+}
+
+
+
+.custom-footer ul a {
+  padding: 20px;
+  color: #555; 
+  font-size: 16px; 
+  transition: color 0.3s; 
+}
+
+.custom-footer ul a:hover {
+  color: #ffc107; 
+}
