@@ -10,3 +10,8 @@
 <h3>Practica 4 Java Script Libros</h3>
 [Enlace al archivo JavaScript](JavaScriptPract/js/script.js)
 
+<h3>Practica 6 Java Script Libros</h3>
+[Enlace al archivo JavaScript](relojjs/js/script.js)
+<h3>Practica 7 Java Script Libros</h3>
+[Enlace al archivo JavaScript](factorialjs/js/script.js)
+
