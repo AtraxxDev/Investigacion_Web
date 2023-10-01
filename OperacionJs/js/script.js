@@ -43,11 +43,15 @@ class Cuadrado extends Poligono {
 }
 
 class Pentagono extends Poligono {
-    calcularArea() {
-        if (this.lados.length === 5) {
+    calcularArea() 
+    {
+        if (this.lados.length === 5) 
+        {
             const lado = this.lados[0];
             return (5 * lado ** 2) / (4 * Math.tan(Math.PI / 5));
-        } else {
+        } 
+        else 
+        {
             return "Área no calculada";
         }
     }
