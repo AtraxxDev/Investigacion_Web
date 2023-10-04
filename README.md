@@ -12,6 +12,8 @@
 
 <h3>Practica 6 Java Script Libros</h3>
 [Enlace al archivo JavaScript](relojjs/js/script.js)
-<h3>Practica 7 Java Script Libros</h3>
+<h3>Practica 7 Java Script </h3>
 [Enlace al archivo JavaScript](factorialjs/js/script.js)
+<h3>Practica 7 Java Script Modulos</h3>
+[Enlace al archivo JavaScript](Modules/js/app.js)
 
