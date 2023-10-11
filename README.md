@@ -17,3 +17,5 @@
 <h3>Practica 7 Java Script Modulos</h3>
 [Enlace al archivo JavaScript](Modules/js/app.js)
 
+<h3>Practica 1  Parcial 3Java Script Modulos</h3>
+[Enlace al archivo JavaScript](CSSENJS/js/main.js)

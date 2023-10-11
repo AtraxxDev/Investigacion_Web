@@ -1,9 +1,9 @@
-// Importar las clases y funciones desde los archivos JS
+
 import { Triangulo, Cuadrado, Pentagono } from './poligonos.js';
 import { mostrarRelojDigital } from './reloj.js';
 import { calcularFactorial } from './factorial.js';
 
-// Ejemplos de uso
+
 
 // Polígonos Regulares
 const triangulo = new Triangulo([3, 4, 5]);
