@@ -18,4 +18,7 @@
 [Enlace al archivo JavaScript](Modules/js/app.js)
 
 <h3>Practica 1  Parcial 3Java Script Modulos</h3>
-[Enlace al archivo JavaScript](CSSENJS/js/main.js)
+[GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
+[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/CSSENJS/js/main.js).
+
+
