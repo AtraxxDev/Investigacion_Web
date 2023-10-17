@@ -57,3 +57,33 @@ document.addEventListener("DOMContentLoaded", () => {
     contactoElement.style.fontSize = "20px";
 
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    let darkMode = false; 
+
+ 
+    function toggleDarkMode() {
+        if (darkMode) {
+            document.body.style.backgroundColor = "#fff"; 
+            document.body.style.color = "#000"; 
+        } else {
+            document.body.style.backgroundColor = "#333"; 
+            document.body.style.color = "#fff"; 
+        }
+
+        darkMode = !darkMode; 
+    }
+
+    // Función para mostrar una alerta con el modo actual
+    function mostrarModo() {
+        const modo = darkMode ? "Modo Oscuro" : "Modo Claro";
+        alert(`La página está actualmente en ${modo}`);
+    }
+
+    
+    const btnCambiarColor = document.getElementById("btn-cambiar-color");
+    btnCambiarColor.addEventListener("click", toggleDarkMode);
+
+    const btnMostrarModo = document.getElementById("btn-mostrar-modo");
+    btnMostrarModo.addEventListener("click", mostrarModo);
+});
