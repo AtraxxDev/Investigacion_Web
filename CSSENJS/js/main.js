@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         darkMode = !darkMode; 
     }
 
-    // Función para mostrar una alerta con el modo actual
+    
     function mostrarModo() {
         const modo = darkMode ? "Modo Oscuro" : "Modo Claro";
         alert(`La página está actualmente en ${modo}`);
