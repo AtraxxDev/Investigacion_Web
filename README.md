@@ -25,4 +25,12 @@
 [GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
 [Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/CSSENJS/js/main.js).
 
+<h3>Practica 3  Parcial 3 Java Script Local Storage</h3>
+[GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
+[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/CSSENJS/js/main.js).
+
+<h3>Practica 3  Parcial 3 Java Script Reloj modulo </h3>
+[GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
+[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/RelojHtml/js/relojjs.js).
+
 
