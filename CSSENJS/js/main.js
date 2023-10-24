@@ -58,32 +58,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
-    let darkMode = false; 
+    let darkMode = localStorage.getItem("darkMode") === "true";
 
- 
     function toggleDarkMode() {
+        darkMode = !darkMode;
+        updateStyles();
+        saveModeToLocalStorage();
+    }
+
+    function updateStyles() {
         if (darkMode) {
-            document.body.style.backgroundColor = "#fff"; 
-            document.body.style.color = "#000"; 
+            document.body.style.backgroundColor = "#333";
+            document.body.style.color = "#fff";
         } else {
-            document.body.style.backgroundColor = "#333"; 
-            document.body.style.color = "#fff"; 
+            document.body.style.backgroundColor = "#fff";
+            document.body.style.color = "#000";
         }
-
-        darkMode = !darkMode; 
     }
 
-    // Función para mostrar una alerta con el modo actual
-    function mostrarModo() {
-        const modo = darkMode ? "Modo Oscuro" : "Modo Claro";
-        alert(`La página está actualmente en ${modo}`);
+    function saveModeToLocalStorage() {
+        localStorage.setItem("darkMode", darkMode);
     }
 
-    
+    updateStyles();
+
     const btnCambiarColor = document.getElementById("btn-cambiar-color");
     btnCambiarColor.addEventListener("click", toggleDarkMode);
 
     const btnMostrarModo = document.getElementById("btn-mostrar-modo");
     btnMostrarModo.addEventListener("click", mostrarModo);
+
+    function mostrarModo() {
+        const modo = darkMode ? "Modo Oscuro" : "Modo Claro";
+        alert(`La página está actualmente en ${modo}`);
+    }
+
+    saveModeToLocalStorage();
 });
