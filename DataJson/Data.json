@@ -1,0 +1,28 @@
+[
+    {
+      "nombreMateria": "Metodologías de Desarrollo Para Aplicaciones Web",
+      "docente": "Jonathan Mircha",
+      "descripcion": "Aprendemos sobre el desarrollo de una pagina web , lo que es HTML , CSS , JS y Boostrap para asi poder crear una pagina completa con Front End Y BackEnd"
+    },
+    {
+      "nombreMateria": "Desarrollo de Interfaces Para Aplicaciones Móviles",
+      "docente": "Diana Rodriguez",
+      "descripcion": "Aprendemos a como hacer una buena UI llamativa y a poder subir nuestros juegos a PlayStore Etc."
+    },
+    {
+      "nombreMateria": "Proyecto Semestral: Diseño y Desarrollo de Aplicaciones Interactivas Complejas",
+      "docente": "Rodrigo Saco",
+      "descripcion": "Aprendemos el desarrollo de un videojuego orientado a Realidad Virtual"
+    },
+    {
+      "nombreMateria": "Simulación Física Para Realidad Virtual y Videojuegos",
+      "docente": "Ricardo Rodriguez",
+      "descripcion": "Aprendemos Fisica orientada a Unity"
+    },
+    {
+      "nombreMateria": "Técnicas de Inteligencia Artificial Para Videojuegos",
+      "docente": "Juan Jose Lopez",
+      "descripcion": "Aprendemos Algoritmos y Estados de la Inteligencia artificial asi como los NPC"
+    }
+  ]
+  
