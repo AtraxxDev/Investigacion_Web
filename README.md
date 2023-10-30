@@ -39,6 +39,6 @@
 
 <h3>Practica 6  Parcial 3 Java Script Data Json </h3>
 [GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
-[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/Forms/js/validation.js).
+[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/DataJson/js/Ajax.js).
 
 
