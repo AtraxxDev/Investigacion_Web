@@ -41,4 +41,8 @@
 [GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
 [Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/DataJson/js/Ajax.js).
 
+<h3>Practica 7  Parcial 3 Java Script API </h3>
+[GitHub Pages](https://atraxxdev.github.io/Investigacion_Web/).
+[Enlace al archivo JavaScript](https://github.com/AtraxxDev/Investigacion_Web/blob/gh-pages/API/api-games.js).
+
 
